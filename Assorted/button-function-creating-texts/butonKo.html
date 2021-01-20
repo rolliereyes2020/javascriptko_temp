@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Butones ko</title>
+  </head>
+  <body>
+    
+    <input type="submit" value="Submit guess" class="buttones">
+    <div class = "doh"></div>
+    
+    <script>
+    const butonKo = document.querySelector('.buttones')
+    butonKo.addEventListener('click', createNa);
+    const listrow = document.querySelector('.doh')
+    let resulta = 3 + 4;
+    let listko = `the string "${ resulta }" is my words here...blah blah string LITERAL eh`
+    
+    
+    function createNa() {
+        console.log ('hoi');
+        const listItem = document.createElement('p');
+        listItem.textContent = listko;
+        listrow.appendChild(listItem);
+    }
+    </script>
+    
+    
+    
+    
+  </body>
+</html>
