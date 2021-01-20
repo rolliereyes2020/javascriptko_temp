@@ -1,0 +1,3 @@
+We will create a Teacher class - but this time it has extras:
+1. subject - a subject a teacher teaches.
+2. greeting() - a different one coz teacher greets differently
