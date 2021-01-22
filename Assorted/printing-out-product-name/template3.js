@@ -4,11 +4,11 @@ let total = 0;
 list.innerHTML = '';
 totalBox.textContent = '';
 
-let products = ['Underpants:6.99',
-  'Socks:5.99',
-  'T-shirt:14.99',
-  'Trousers:31.99',
-  'Shoes:23.99'];
+let products = ['Underpants:2',
+  'Socks:3',
+  'T-shirt:4',
+  'Trousers:5',
+  'Shoes:6'];
 
 for(let i = 0; i < products.length; i++) {
   let subArray = products[i].split(':');

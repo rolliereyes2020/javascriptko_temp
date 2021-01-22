@@ -8,6 +8,7 @@ function myFunction() {
   tooltip.innerHTML = "Copied: " + copyText.value;
 }
 
+
 function outFunc() {
   var tooltip = document.getElementById("myTooltip");
   tooltip.innerHTML = "Copy to clipboard";
